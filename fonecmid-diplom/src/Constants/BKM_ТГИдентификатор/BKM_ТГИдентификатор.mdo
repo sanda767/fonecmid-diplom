@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d010c61-c94f-4d40-ae71-57e8d3a780c0">
+  <producedTypes>
+    <managerType typeId="0ecc1ba5-57d7-4ed2-a795-8328ae0eac96" valueTypeId="dae9750b-fb43-4703-98b5-704e02b4e358"/>
+    <valueManagerType typeId="4458d909-cb63-41c0-9d93-b0a1aaf4c525" valueTypeId="91d9dd86-57ce-4bdc-845c-5bd3b23d3e6e"/>
+    <valueKeyType typeId="c5ef5126-3094-4b25-8457-e006d110ccff" valueTypeId="df5f0a1f-a4f1-4005-a800-85665e36553d"/>
+  </producedTypes>
+  <name>BKM_ТГИдентификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТГИдентификатор</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

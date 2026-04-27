@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4be5777a-6064-4aca-964d-21199d9d042c">
+  <producedTypes>
+    <selectionType typeId="b1d0fb42-c711-4762-8627-eca97e089b59" valueTypeId="6c0aedb3-8e82-40cb-8841-0ce064a8bcea"/>
+    <listType typeId="a9938d2f-b5b1-4dce-93d8-43f9ca442120" valueTypeId="c241c560-669c-4406-8999-79bfbd9b221b"/>
+    <managerType typeId="d394be12-4a65-40d7-9921-a4021cc7c67d" valueTypeId="f00ea723-a895-4717-a365-d85d839f69f8"/>
+    <recordSetType typeId="79e9962d-6b51-4428-bfa1-720a2cce8347" valueTypeId="db73cf02-e0ff-426a-aaa5-de8eb3d72a24"/>
+    <recordKeyType typeId="29afd860-f2bc-4494-82b4-49ba584636cb" valueTypeId="dc769c00-d86e-48e1-a4c4-623b5f6fc7a0"/>
+    <recordType typeId="645316d4-3937-4fa9-b45b-619d31fab7a7" valueTypeId="ec54be9f-7966-4567-8ac6-31d12bb6120e"/>
+    <recalcsType typeId="9eb97a99-3886-4c24-ad4b-e43721774143" valueTypeId="ce7b9460-b7a9-4791-bb0c-78489b80472d"/>
+  </producedTypes>
+  <name>BKM_ДополнительныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ef94e1a-97d2-4bfb-bfee-64b24815b33b">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="a81e395c-6aa8-4af5-98bb-0c13e00e92ca">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="9600a4eb-d006-413c-9ccf-9ff0a89410f7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

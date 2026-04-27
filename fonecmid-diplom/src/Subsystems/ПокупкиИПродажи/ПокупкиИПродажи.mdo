@@ -10,6 +10,11 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>AccumulationRegister.ОбработкаЗаказов</content>
+  <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>AccumulationRegister.Продажи</content>
   <subsystems>Справочники</subsystems>
   <subsystems>Операции</subsystems>
 </mdclass:Subsystem>

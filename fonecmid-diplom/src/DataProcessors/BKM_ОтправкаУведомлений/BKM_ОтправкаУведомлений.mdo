@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d5fe2d5-b279-44ef-9c31-d427825ed33e">
+  <producedTypes>
+    <objectType typeId="c113aaeb-3654-4c21-844a-9e37c86cca82" valueTypeId="09423dbb-b852-4268-b47e-1537751ee8ad"/>
+    <managerType typeId="bf4dd919-081d-4e50-b1dd-c587dbc12937" valueTypeId="e372508a-aafb-430c-bf5b-db264399611d"/>
+  </producedTypes>
+  <name>BKM_ОтправкаУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.BKM_ОтправкаУведомлений.Form.Форма</defaultForm>
+  <forms uuid="357d976c-4f30-45e2-8290-472e23329a41">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

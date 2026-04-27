@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7005d4a-131b-4492-8246-4b5921b15a35">
+  <producedTypes>
+    <objectType typeId="e12b75df-23c3-4b83-a234-bc77010f41a7" valueTypeId="850e604d-1178-4500-8682-c49403d4af10"/>
+    <refType typeId="646891a5-7a72-4503-9efa-cfaa63add3ea" valueTypeId="af559231-e8bc-47fe-bb0a-df11deffd657"/>
+    <selectionType typeId="1baa5efd-d8d0-431c-80ed-ded555efb6d1" valueTypeId="46cc9f63-7be6-4d5c-89be-97a17066d215"/>
+    <listType typeId="3a7de385-367e-4f59-ab49-f0fa4ff84c91" valueTypeId="d7d48fbc-f5c5-48ab-ae9c-f7f39984793a"/>
+    <managerType typeId="a712fd46-560f-4ec4-ad37-6a811c1429e2" valueTypeId="29f7c788-d265-46d8-bff8-69ac9f3f2e80"/>
+  </producedTypes>
+  <name>BKM_ВыплатаЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выплата зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.BKM_ВыплатаЗарплаты.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Выплата зарплаты</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выплаты зарплат</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.BKM_ВыплатаЗарплаты.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b8c32331-a426-476c-a077-367c30f53a91">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d07d83ad-3437-4817-8d3d-897da5c8fef5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2bafde1b-76c5-4c34-bca8-31c06364f14b">
+    <producedTypes>
+      <objectType typeId="19064cb2-9eb7-4ef7-a336-133dd7b0d1cd" valueTypeId="6edfd8ba-d27d-4062-b3a4-3975c904c2ff"/>
+      <rowType typeId="61f19b1b-7fa8-4c3d-a361-7b9025c98623" valueTypeId="12a5472e-60fb-403a-a512-1180b2d467dd"/>
+    </producedTypes>
+    <name>Выплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплаты</value>
+    </synonym>
+    <attributes uuid="cf547c6a-013b-433a-b18a-ff715543dc7e">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f749a82f-8c41-4dfd-973f-3cb51abc365f">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

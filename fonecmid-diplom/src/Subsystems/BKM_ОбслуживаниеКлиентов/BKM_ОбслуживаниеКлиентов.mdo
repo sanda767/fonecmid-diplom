@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f6fa368-2500-4cfc-8412-4c472d70cbe7">
+  <name>BKM_ОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>Constant.BKM_ТГИдентификатор</content>
+  <content>Constant.BKM_ТГТокен</content>
+  <content>CommonModule.BKM_Телеграмм</content>
+  <content>Catalog.BKM_УведомлениеТГ</content>
+  <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
+  <content>ScheduledJob.BKM_ПроверкаУведомлений</content>
+  <content>DataProcessor.BKM_ОтправкаУведомлений</content>
+  <content>Report.BKM_ВыработкаСпециалистов</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеРеализаций</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+</mdclass:Subsystem>

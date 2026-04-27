@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15be964e-0550-427e-95cd-89c9e80fde09">
+  <name>BKM_ПроверкаУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка уведомлений</value>
+  </synonym>
+  <methodName>CommonModule.BKM_Телеграмм.BKM_ОтправитьУведомления</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

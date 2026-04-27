@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff1373e4-6cf9-44b1-bdd3-4285d2c6bf37">
+  <name>BKM_УправленческаяЗарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческая зарплата</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.BKM_ГрафикиРаботы</content>
+  <content>Catalog.Пользователи</content>
+  <content>Document.BKM_НачисленияЗарплаты</content>
+  <content>InformationRegister.BKM_ГрафикиРаботы</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафика</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>CommandGroup.BKM_Справочники</content>
+  <content>CommandGroup.BKM_Документы</content>
+  <content>CommandGroup.BKM_РегистрыСведений</content>
+  <content>CommandGroup.BKM_РегистрыРасчета</content>
+  <content>CommandGroup.BKM_РегистрыНакопления</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+  <content>Report.BKM_ВыработкаСпециалистов</content>
+  <content>Report.BKM_РасчетыССотрудниками</content>
+  <content>AccumulationRegister.BKM_ОтпускаСотрудников</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+</mdclass:Subsystem>

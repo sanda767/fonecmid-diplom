@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17986d24-7581-49e3-bdf2-5a11df5b3ee7">
+  <name>BKM_РольРеализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль реализации</value>
+  </synonym>
+</mdclass:Role>

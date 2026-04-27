@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d58c5bb1-db98-4f95-b38e-c6a776677f45">
+  <producedTypes>
+    <objectType typeId="c3d21a7f-9270-46ac-8459-974b2de1ada7" valueTypeId="44da4f90-ab6a-4142-9a41-edd8c3004d94"/>
+    <refType typeId="67922a61-e329-4ad4-bbbf-6bfd01a9eb90" valueTypeId="dbb05a66-2397-4093-9187-a2ed9bcf4cec"/>
+    <selectionType typeId="14ee0e72-4ba7-4035-a24a-f2c9edb58eeb" valueTypeId="d2b32e2c-6f2a-44b6-b0fe-3fc037d9b453"/>
+    <listType typeId="a22b57fb-2a05-4693-ae49-298776df56fe" valueTypeId="88b35a2b-e7db-4dd6-b2fd-0859cd30f35b"/>
+    <managerType typeId="d6017043-d2df-439e-86c7-91182ce2525e" valueTypeId="01933bc8-6f6d-42ea-875b-03812b13a62c"/>
+  </producedTypes>
+  <name>BKM_УведомлениеТГ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление ТГ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление ТГ</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уведомления ТГ</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f9bccb98-7f5b-494d-98f6-e86ffa67305f">
+    <name>BKM_ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
