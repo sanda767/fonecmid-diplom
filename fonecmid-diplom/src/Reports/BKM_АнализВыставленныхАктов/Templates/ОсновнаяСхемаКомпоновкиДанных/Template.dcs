@@ -9,12 +9,6 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Клиент</dataPath>
 			<field>Клиент</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Клиент</v8:content>
-				</v8:item>
-			</title>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
@@ -22,60 +16,47 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Договор</dataPath>
 			<field>Договор</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Договор</v8:content>
-				</v8:item>
-			</title>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаКОплатеУслуг</dataPath>
-			<field>СуммаКОплатеУслуг</field>
+			<dataPath>СуммаОбслуживания</dataPath>
+			<field>СуммаОбслуживания</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сумма к оплате услуг</v8:content>
+					<v8:content>Сумма обслуживания</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>BKM_Клиент</dataPath>
-			<field>BKM_Клиент</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>BKM_Договор</dataPath>
-			<field>BKM_Договор</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>СтоимостьЧасаРаботы</dataPath>
-			<field>СтоимостьЧасаРаботы</field>
+			<dataPath>СуммаРеализации</dataPath>
+			<field>СуммаРеализации</field>
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Стоимость часа работы</v8:content>
+					<v8:content>Сумма реализации</v8:content>
 				</v8:item>
 			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	BKM_ВыполненныеКлиентуРаботыОстатки.BKM_Клиент КАК Клиент,
-	BKM_ВыполненныеКлиентуРаботыОстатки.BKM_Договор КАК Договор,
-	BKM_ВыполненныеКлиентуРаботыОстатки.BKM_СуммаКОплатеОстаток КАК СуммаКОплатеУслуг,
-	BKM_ВыполненныеКлиентуРаботыОстатки.BKM_Договор.ВКМ_СтоимостьЧасаРаботы КАК СтоимостьЧасаРаботы
+	BKM_ВыполненныеКлиентуРаботыОбороты.Клиент КАК Клиент,
+	BKM_ВыполненныеКлиентуРаботыОбороты.Договор КАК Договор,
+	BKM_ВыполненныеКлиентуРаботыОбороты.СуммаКОплатеПриход КАК СуммаОбслуживания,
+	BKM_ВыполненныеКлиентуРаботыОбороты.СуммаКОплатеРасход КАК СуммаРеализации
 ИЗ
-	РегистрНакопления.BKM_ВыполненныеКлиентуРаботы.Остатки(&amp;Период,) КАК BKM_ВыполненныеКлиентуРаботыОстатки</query>
+	РегистрНакопления.BKM_ВыполненныеКлиентуРаботы.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,) КАК
+		BKM_ВыполненныеКлиентуРаботыОбороты</query>
 	</dataSet>
 	<totalField>
-		<dataPath>СуммаКОплатеУслуг</dataPath>
-		<expression>Сумма(СуммаКОплатеУслуг)</expression>
+		<dataPath>СуммаОбслуживания</dataPath>
+		<expression>Сумма(СуммаОбслуживания)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>СтоимостьЧасаРаботы</dataPath>
-		<expression>Сумма(СтоимостьЧасаРаботы)</expression>
+		<dataPath>СуммаРеализации</dataPath>
+		<expression>Сумма(СуммаРеализации)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -86,13 +67,44 @@
 			</v8:item>
 		</title>
 		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
-		<value xsi:nil="true"/>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -103,17 +115,17 @@
 					<dcsset:field>Договор</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СуммаКОплатеУслуг</dcsset:field>
+					<dcsset:field>СуммаОбслуживания</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>СтоимостьЧасаРаботы</dcsset:field>
+					<dcsset:field>СуммаРеализации</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
 					<dcscor:value xsi:nil="true"/>
-					<dcsset:userSettingID>3034080f-0b12-4d4f-b457-c8fe8ad9d1f0</dcsset:userSettingID>
+					<dcsset:userSettingID>27428323-0aa3-4249-9998-16c3291043ea</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
@@ -165,10 +177,10 @@
 					<dcsset:item>
 						<dcsset:selection>
 							<dcsset:item>
-								<dcsset:field>СтоимостьЧасаРаботы</dcsset:field>
+								<dcsset:field>СуммаОбслуживания</dcsset:field>
 							</dcsset:item>
 							<dcsset:item>
-								<dcsset:field>СуммаКОплатеУслуг</dcsset:field>
+								<dcsset:field>СуммаРеализации</dcsset:field>
 							</dcsset:item>
 						</dcsset:selection>
 						<dcsset:filter/>

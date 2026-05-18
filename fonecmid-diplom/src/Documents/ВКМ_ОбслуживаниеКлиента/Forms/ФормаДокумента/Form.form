@@ -115,7 +115,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_Клиент</name>
+    <name>Клиент</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -123,10 +123,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_Клиент</segments>
+      <segments>Объект.Клиент</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_КлиентРасширеннаяПодсказка</name>
+      <name>КлиентРасширеннаяПодсказка</name>
       <id>9</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -136,7 +136,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_КлиентКонтекстноеМеню</name>
+      <name>КлиентКонтекстноеМеню</name>
       <id>8</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -156,7 +156,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_Договор</name>
+    <name>Договор</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -164,10 +164,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_Договор</segments>
+      <segments>Объект.Договор</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_ДоговорРасширеннаяПодсказка</name>
+      <name>ДоговорРасширеннаяПодсказка</name>
       <id>12</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -177,7 +177,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ДоговорКонтекстноеМеню</name>
+      <name>ДоговорКонтекстноеМеню</name>
       <id>11</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -197,7 +197,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_Специалист</name>
+    <name>Специалист</name>
     <id>13</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -205,10 +205,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_Специалист</segments>
+      <segments>Объект.Специалист</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_СпециалистРасширеннаяПодсказка</name>
+      <name>СпециалистРасширеннаяПодсказка</name>
       <id>15</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -218,7 +218,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_СпециалистКонтекстноеМеню</name>
+      <name>СпециалистКонтекстноеМеню</name>
       <id>14</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -238,7 +238,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ВКМ_ДатаПроведенияРабот</name>
+    <name>ДатаПроведенияРабот</name>
     <id>16</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -246,10 +246,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ВКМ_ДатаПроведенияРабот</segments>
+      <segments>Объект.ДатаПроведенияРабот</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВКМ_ДатаПроведенияРаботРасширеннаяПодсказка</name>
+      <name>ДатаПроведенияРаботРасширеннаяПодсказка</name>
       <id>18</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -259,7 +259,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВКМ_ДатаПроведенияРаботКонтекстноеМеню</name>
+      <name>ДатаПроведенияРаботКонтекстноеМеню</name>
       <id>17</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -282,7 +282,7 @@
     <name>ГруппаВремяРабот</name>
     <id>58</id>
     <items xsi:type="form:FormField">
-      <name>ВКМ_ВремяНачалаРабот</name>
+      <name>ВремяНачалаРабот</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -290,10 +290,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВКМ_ВремяНачалаРабот</segments>
+        <segments>Объект.ВремяНачалаРабот</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВКМ_ВремяНачалаРаботРасширеннаяПодсказка</name>
+        <name>ВремяНачалаРаботРасширеннаяПодсказка</name>
         <id>21</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -303,7 +303,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ВКМ_ВремяНачалаРаботКонтекстноеМеню</name>
+        <name>ВремяНачалаРаботКонтекстноеМеню</name>
         <id>20</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -323,7 +323,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>BKM_ВремяОкончанияРабот</name>
+      <name>ВремяОкончанияРабот</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -331,10 +331,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ВремяОкончанияРабот</segments>
+        <segments>Объект.ВремяОкончанияРабот</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ВремяОкончанияРаботРасширеннаяПодсказка</name>
+        <name>ВремяОкончанияРаботРасширеннаяПодсказка</name>
         <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -344,7 +344,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВремяОкончанияРаботКонтекстноеМеню</name>
+        <name>ВремяОкончанияРаботКонтекстноеМеню</name>
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -393,7 +393,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>BKM_ОписаниеПроблемы</name>
+    <name>ОписаниеПроблемы</name>
     <id>25</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -401,10 +401,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.BKM_ОписаниеПроблемы</segments>
+      <segments>Объект.ОписаниеПроблемы</segments>
     </dataPath>
     <extendedTooltip>
-      <name>BKM_ОписаниеПроблемыРасширеннаяПодсказка</name>
+      <name>ОписаниеПроблемыРасширеннаяПодсказка</name>
       <id>27</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -414,7 +414,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>BKM_ОписаниеПроблемыКонтекстноеМеню</name>
+      <name>ОписаниеПроблемыКонтекстноеМеню</name>
       <id>26</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -435,7 +435,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>BKM_ВыполненныеРаботы</name>
+    <name>ВыполненныеРаботы</name>
     <id>31</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -443,11 +443,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.BKM_ВыполненныеРаботы</segments>
+      <segments>Объект.ВыполненныеРаботы</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>BKM_ВыполненныеРаботыНомерСтроки</name>
+      <name>ВыполненныеРаботыНомерСтроки</name>
       <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -455,10 +455,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ВыполненныеРаботы.LineNumber</segments>
+        <segments>Объект.ВыполненныеРаботы.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыНомерСтрокиРасширеннаяПодсказка</name>
         <id>46</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -468,7 +468,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыНомерСтрокиКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыНомерСтрокиКонтекстноеМеню</name>
         <id>45</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -483,7 +483,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>BKM_ВыполненныеРаботыBKM_ОписаниеРабот</name>
+      <name>ВыполненныеРаботыОписаниеРабот</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -491,10 +491,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ВыполненныеРаботы.BKM_ОписаниеРабот</segments>
+        <segments>Объект.ВыполненныеРаботы.ОписаниеРабот</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыBKM_ОписаниеРаботРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыОписаниеРаботРасширеннаяПодсказка</name>
         <id>49</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -504,7 +504,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыBKM_ОписаниеРаботКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыОписаниеРаботКонтекстноеМеню</name>
         <id>48</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -524,7 +524,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>BKM_ВыполненныеРаботыBKM_ФактическиПотраченоЧасов</name>
+      <name>ВыполненныеРаботыФактическиПотраченоЧасов</name>
       <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -532,10 +532,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ВыполненныеРаботы.BKM_ФактическиПотраченоЧасов</segments>
+        <segments>Объект.ВыполненныеРаботы.ФактическиПотраченоЧасов</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыBKM_ФактическиПотраченоЧасовРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыФактическиПотраченоЧасовРасширеннаяПодсказка</name>
         <id>52</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -545,7 +545,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыBKM_ФактическиПотраченоЧасовКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыФактическиПотраченоЧасовКонтекстноеМеню</name>
         <id>51</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -565,7 +565,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>BKM_ВыполненныеРаботыBKM_ЧасыКОплатеКлиенту</name>
+      <name>ВыполненныеРаботыЧасыКОплатеКлиенту</name>
       <id>53</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -573,10 +573,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ВыполненныеРаботы.BKM_ЧасыКОплатеКлиенту</segments>
+        <segments>Объект.ВыполненныеРаботы.ЧасыКОплатеКлиенту</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыBKM_ЧасыКОплатеКлиентуРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыЧасыКОплатеКлиентуРасширеннаяПодсказка</name>
         <id>55</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -586,7 +586,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыBKM_ЧасыКОплатеКлиентуКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыЧасыКОплатеКлиентуКонтекстноеМеню</name>
         <id>54</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -606,16 +606,16 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>BKM_ВыполненныеРаботыКоманднаяПанель</name>
+      <name>ВыполненныеРаботыКоманднаяПанель</name>
       <id>33</id>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <name>BKM_ВыполненныеРаботыСтрокаПоиска</name>
+      <name>ВыполненныеРаботыСтрокаПоиска</name>
       <id>35</id>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыСтрокаПоискаРасширеннаяПодсказка</name>
         <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -625,20 +625,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыСтрокаПоискаКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыСтрокаПоискаКонтекстноеМеню</name>
         <id>36</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>BKM_ВыполненныеРаботы</source>
+      <source>ВыполненныеРаботы</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>BKM_ВыполненныеРаботыСостояниеПросмотра</name>
+      <name>ВыполненныеРаботыСостояниеПросмотра</name>
       <id>38</id>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -648,21 +648,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыСостояниеПросмотраКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыСостояниеПросмотраКонтекстноеМеню</name>
         <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>BKM_ВыполненныеРаботы</source>
+      <source>ВыполненныеРаботы</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>BKM_ВыполненныеРаботыУправлениеПоиском</name>
+      <name>ВыполненныеРаботыУправлениеПоиском</name>
       <id>41</id>
       <extendedTooltip>
-        <name>BKM_ВыполненныеРаботыУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>ВыполненныеРаботыУправлениеПоискомРасширеннаяПодсказка</name>
         <id>43</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -672,18 +672,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ВыполненныеРаботыУправлениеПоискомКонтекстноеМеню</name>
+        <name>ВыполненныеРаботыУправлениеПоискомКонтекстноеМеню</name>
         <id>42</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>BKM_ВыполненныеРаботы</source>
+      <source>ВыполненныеРаботы</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>BKM_ВыполненныеРаботыРасширеннаяПодсказка</name>
+      <name>ВыполненныеРаботыРасширеннаяПодсказка</name>
       <id>34</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -693,7 +693,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>BKM_ВыполненныеРаботыКонтекстноеМеню</name>
+      <name>ВыполненныеРаботыКонтекстноеМеню</name>
       <id>32</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -721,7 +721,7 @@
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormField">
-    <name>BKM_Комментарий</name>
+    <name>Комментарий</name>
     <id>28</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -732,7 +732,7 @@
       <segments>Объект.Комментарий</segments>
     </dataPath>
     <extendedTooltip>
-      <name>BKM_КомментарийРасширеннаяПодсказка</name>
+      <name>КомментарийРасширеннаяПодсказка</name>
       <id>30</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -742,7 +742,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>BKM_КомментарийКонтекстноеМеню</name>
+      <name>КомментарийКонтекстноеМеню</name>
       <id>29</id>
       <autoFill>true</autoFill>
     </contextMenu>

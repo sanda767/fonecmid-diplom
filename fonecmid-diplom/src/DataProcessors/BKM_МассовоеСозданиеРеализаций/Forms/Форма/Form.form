@@ -42,7 +42,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:Table">
-    <name>BKM_ТаблицаСсылок</name>
+    <name>ТаблицаСсылок</name>
     <id>4</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -50,11 +50,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.BKM_ТаблицаСсылок</segments>
+      <segments>Объект.ТаблицаСсылок</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
-      <name>BKM_ТаблицаСсылокНомерСтроки</name>
+      <name>ТаблицаСсылокНомерСтроки</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -62,10 +62,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ТаблицаСсылок.LineNumber</segments>
+        <segments>Объект.ТаблицаСсылок.LineNumber</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ТаблицаСсылокНомерСтрокиРасширеннаяПодсказка</name>
+        <name>ТаблицаСсылокНомерСтрокиРасширеннаяПодсказка</name>
         <id>19</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -75,7 +75,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ТаблицаСсылокНомерСтрокиКонтекстноеМеню</name>
+        <name>ТаблицаСсылокНомерСтрокиКонтекстноеМеню</name>
         <id>18</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -90,7 +90,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>BKM_ТаблицаСсылокДоговор</name>
+      <name>ТаблицаСсылокДоговор</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -98,10 +98,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ТаблицаСсылок.Договор</segments>
+        <segments>Объект.ТаблицаСсылок.Договор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ТаблицаСсылокДоговорРасширеннаяПодсказка</name>
+        <name>ТаблицаСсылокДоговорРасширеннаяПодсказка</name>
         <id>25</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -111,7 +111,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ТаблицаСсылокДоговорКонтекстноеМеню</name>
+        <name>ТаблицаСсылокДоговорКонтекстноеМеню</name>
         <id>24</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -131,7 +131,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>BKM_ТаблицаСсылокРеализация</name>
+      <name>ТаблицаСсылокРеализация</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -139,10 +139,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.BKM_ТаблицаСсылок.Реализация</segments>
+        <segments>Объект.ТаблицаСсылок.Реализация</segments>
       </dataPath>
       <extendedTooltip>
-        <name>BKM_ТаблицаСсылокРеализацияРасширеннаяПодсказка</name>
+        <name>ТаблицаСсылокРеализацияРасширеннаяПодсказка</name>
         <id>22</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -152,7 +152,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ТаблицаСсылокРеализацияКонтекстноеМеню</name>
+        <name>ТаблицаСсылокРеализацияКонтекстноеМеню</name>
         <id>21</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -172,7 +172,7 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>BKM_ТаблицаСсылокКоманднаяПанель</name>
+      <name>ТаблицаСсылокКоманднаяПанель</name>
       <id>6</id>
       <items xsi:type="form:Button">
         <name>ФормаЗаполнитьДоговоры</name>
@@ -200,7 +200,7 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>BKM_ТаблицаСсылокЗаполнитьАкты</name>
+        <name>ТаблицаСсылокЗаполнитьАкты</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -208,7 +208,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>BKM_ТаблицаСсылокЗаполнитьАктыРасширеннаяПодсказка</name>
+          <name>ТаблицаСсылокЗаполнитьАктыРасширеннаяПодсказка</name>
           <id>29</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -228,10 +228,10 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
-      <name>BKM_ТаблицаСсылокСтрокаПоиска</name>
+      <name>ТаблицаСсылокСтрокаПоиска</name>
       <id>8</id>
       <extendedTooltip>
-        <name>BKM_ТаблицаСсылокСтрокаПоискаРасширеннаяПодсказка</name>
+        <name>ТаблицаСсылокСтрокаПоискаРасширеннаяПодсказка</name>
         <id>10</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -241,20 +241,20 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ТаблицаСсылокСтрокаПоискаКонтекстноеМеню</name>
+        <name>ТаблицаСсылокСтрокаПоискаКонтекстноеМеню</name>
         <id>9</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>BKM_ТаблицаСсылок</source>
+      <source>ТаблицаСсылок</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
-      <name>BKM_ТаблицаСсылокСостояниеПросмотра</name>
+      <name>ТаблицаСсылокСостояниеПросмотра</name>
       <id>11</id>
       <extendedTooltip>
-        <name>BKM_ТаблицаСсылокСостояниеПросмотраРасширеннаяПодсказка</name>
+        <name>ТаблицаСсылокСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>13</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -264,21 +264,21 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ТаблицаСсылокСостояниеПросмотраКонтекстноеМеню</name>
+        <name>ТаблицаСсылокСостояниеПросмотраКонтекстноеМеню</name>
         <id>12</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>BKM_ТаблицаСсылок</source>
+      <source>ТаблицаСсылок</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
-      <name>BKM_ТаблицаСсылокУправлениеПоиском</name>
+      <name>ТаблицаСсылокУправлениеПоиском</name>
       <id>14</id>
       <extendedTooltip>
-        <name>BKM_ТаблицаСсылокУправлениеПоискомРасширеннаяПодсказка</name>
+        <name>ТаблицаСсылокУправлениеПоискомРасширеннаяПодсказка</name>
         <id>16</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -288,18 +288,18 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>BKM_ТаблицаСсылокУправлениеПоискомКонтекстноеМеню</name>
+        <name>ТаблицаСсылокУправлениеПоискомКонтекстноеМеню</name>
         <id>15</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>BKM_ТаблицаСсылок</source>
+      <source>ТаблицаСсылок</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>BKM_ТаблицаСсылокРасширеннаяПодсказка</name>
+      <name>ТаблицаСсылокРасширеннаяПодсказка</name>
       <id>7</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -309,7 +309,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>BKM_ТаблицаСсылокКонтекстноеМеню</name>
+      <name>ТаблицаСсылокКонтекстноеМеню</name>
       <id>5</id>
       <autoFill>true</autoFill>
     </contextMenu>

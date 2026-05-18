@@ -39,7 +39,7 @@
       <objectType typeId="14399ed3-dbb0-4bc2-857e-c5da30a3a229" valueTypeId="f00112d6-4f1a-4e1c-9c8a-b68a2f541b23"/>
       <rowType typeId="66c57239-c9aa-46f3-95cd-800b25453268" valueTypeId="8bdd3fd7-08a0-4810-9989-fbfddbc016ad"/>
     </producedTypes>
-    <name>BKM_ТаблицаСсылок</name>
+    <name>ТаблицаСсылок</name>
     <synonym>
       <key>ru</key>
       <value>Таблица ссылок</value>

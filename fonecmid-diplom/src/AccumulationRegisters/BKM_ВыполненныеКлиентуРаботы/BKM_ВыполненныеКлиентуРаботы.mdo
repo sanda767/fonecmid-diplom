@@ -17,7 +17,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="01515990-2f74-4eaf-8da6-b0f42982b792">
-    <name>BKM_КоличествоЧасов</name>
+    <name>КоличествоЧасов</name>
     <synonym>
       <key>ru</key>
       <value>Количество часов</value>
@@ -34,7 +34,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="210feb3a-e495-4961-9cbf-41dc386e9bfd">
-    <name>BKM_СуммаКОплате</name>
+    <name>СуммаКОплате</name>
     <synonym>
       <key>ru</key>
       <value>Сумма к оплате</value>
@@ -51,7 +51,7 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <dimensions uuid="6c8ed0d8-ae90-466c-9a8a-acbe0aa6634d">
-    <name>BKM_Клиент</name>
+    <name>Клиент</name>
     <synonym>
       <key>ru</key>
       <value>Клиент</value>
@@ -65,7 +65,7 @@
     <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="dae6d287-a1b6-40cd-a842-43c1670ee3cc">
-    <name>BKM_Договор</name>
+    <name>Договор</name>
     <synonym>
       <key>ru</key>
       <value>Договор</value>

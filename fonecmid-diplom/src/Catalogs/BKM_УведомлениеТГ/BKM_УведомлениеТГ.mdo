@@ -33,7 +33,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="f9bccb98-7f5b-494d-98f6-e86ffa67305f">
-    <name>BKM_ТекстСообщения</name>
+    <name>ТекстСообщения</name>
     <synonym>
       <key>ru</key>
       <value>Текст сообщения</value>
